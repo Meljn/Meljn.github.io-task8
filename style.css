@@ -1,0 +1,80 @@
+body {
+    background-color: #1e1e2f;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+button {
+    display: block;
+    margin: 50px auto;
+    width: 25vw;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn_open {
+    background-color: #5a5aff;
+}
+
+.btn_send {
+    background-color: #5a5aff;
+}
+
+.btn_close {
+    background-color: #b94c5a;
+}
+
+.modal {
+    display: none; /* Скрываем модальное окно по умолчанию */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+}
+.modal-dialog {
+    position: relative;
+    margin: auto;
+    max-width: 600px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.modal-content {
+    background-color: #1e1e2f;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    padding: 30px;
+}
+.modal-header {
+    text-align: center;
+}
+.form-label {
+    margin-bottom: 5px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-check {
+    margin-bottom: 15px;
+}
+.form-check-input {
+    margin-right: 10px;
+}
+.form-check-label {
+    margin-left: 5px;
+}
+.modal-footer {
+    display: flex;
+    gap: 10px;
+}
